@@ -2,8 +2,8 @@
 
 STEP 1: install with helm:
 
-    helm repo add glpi-conteiner https://vdiogov.github.io/glpi-conteiner/
-    helm install glpi-helm glpi-conteiner/glpi
+    helm repo add glpi-chart https://zepfred.github.io/glpi-chart/
+    helm install glpi-helm glpi-chart/glpi
 
 STEP 2: expose service:
 
