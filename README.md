@@ -1,43 +1,4 @@
-## GLPI Free Asset and IT Management Software Containerization
-
-GLPI Version: 10.0.3
-PHP: 8.1
-Mariadb
-
-Docker: OK
-Kubernetes: in progress
-# DOCKER SETUP
-
-STEP 1: build
-
-    docker build -t glpi-conteiner .
-
-STEP 2: compose up
-
-    docker-compose up
-
-STEP 3: acess & configure
-
-acess:
-
-    http://localhost
-
-Setup >
-
-DB config (you can set user and password in docker-compose file), default is:
-
-    HOST = mariadb
-
-    user = user
-
-    password = pass
-
-DB Select >
-
-    glpi
-
-# Kubernetes SETUP
-
+**All templates were created by [vdiogov](https://github.com/vdiogov/glpi-conteiner).**
 
 STEP 1: install with helm:
 
@@ -56,7 +17,6 @@ STEP 4: acess & configure
 
     http://localhost
 
-
 Setup >
 
 DB config (you can set user and password in docker-compose file), default is:
@@ -66,7 +26,6 @@ DB config (you can set user and password in docker-compose file), default is:
     user = user_glpi
 
     password = (STEP 3)
-
 
 DB Select >
 
